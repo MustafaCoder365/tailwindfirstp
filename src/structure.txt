@@ -1,0 +1,45 @@
+Folder PATH listing for volume OS
+Volume serial number is 5813-399E
+C:.
+|   App.jsx
+|   main.jsx
+|   structure.txt
+|   
++---assets
+|       logo.png
+|       react.svg
+|       
++---components
+|       AuthModal.jsx
+|       Navbar.jsx
+|       ProtectedRoute.jsx
+|       PublicNavbar.jsx
+|       
++---layouts
+|       AdminAuthLayout.jsx
+|       AuthLayout.jsx
+|       MainLayout.jsx
+|       
++---pages
+|   +---admin
+|   |   +---Dashboard
+|   |   |       index.jsx
+|   |   |       
+|   |   \---Login
+|   |           index.jsx
+|   |           
+|   +---auth
+|   |   \---Login
+|   +---Home
+|   |       index.jsx
+|   |       
+|   +---store
+|   |       index.jsx
+|   |       
+|   \---user
+|           index.jsx
+|           
+\---styles
+        App.css
+        index.css
+        

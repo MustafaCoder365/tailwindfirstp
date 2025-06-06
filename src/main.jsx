@@ -11,7 +11,9 @@
 // )
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './styles/index.css';  // استيراد Tailwind/base.css
+// import './styles/index.css';  // استيراد Tailwind/base.css
 import App from './App';
+import "./styles/index.css";
+
 
 createRoot(document.getElementById('root')).render(<App />);

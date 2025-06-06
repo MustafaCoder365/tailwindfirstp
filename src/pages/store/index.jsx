@@ -21,12 +21,12 @@ export default function StoreHome() {
     const role = localStorage.getItem('role');
 
     if (import.meta.env.PROD) {
-      // In production, enforce real auth
+      // في بيئة الإنتاج، تحقق من الـ token و role الحقيقي
       if (!token || role !== 'store') {
-        window.location.href = '/login/store';
+        window.location.href = '/login/store'; // إعادة التوجيه إلى صفحة تسجيل الدخول
       }
     } else {
-      // In development, set mock-store-token if missing
+      // في بيئة التطوير، إذا كان الـ token أو role مفقودًا، قم بتعيين قيم وهمية
       if (!token || role !== 'store') {
         localStorage.setItem('token', 'mock-store-token');
         localStorage.setItem('role', 'store');
